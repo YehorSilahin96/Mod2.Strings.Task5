@@ -18,7 +18,7 @@ public class Main {
         boolean res1 = name.matches("^([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$");
         if (res1) {
             System.out.println("Name validation successful");
-        }
+            }
             else {
             System.out.println("Illegal. Name must contains only A-Z, a-z and space");
             }
@@ -34,7 +34,7 @@ public class Main {
         boolean res3 = mail.matches("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$");
         if (res3) {
             System.out.println("Email validation successful");
-        }
+            }
             else {
             System.out.println("Illegal. Email address must be in a format: (A-Z,0-9,_.+-)@(A-Z0-9.-).[A-Z]");
             }
